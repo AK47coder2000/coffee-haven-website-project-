@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* Background Styles */
+.bg-contact{
+    background-image: url(contact.jpg);
+     min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Menu Heading Styles */
+.contact{
+    font-family: champagne;
+    font-size: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#vist{
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+/* Style for the form element */
+form{
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+.box{
+    padding: 20px;
+}
+
+input[type=text], input[type=submit]{
+    width: 50%;
+    padding: 12px;
+    margin: 10px ;
+    display: inline-block;
+    border: 1px solid white;
+    box-sizing: content-box;
+}
+
+input[type=submit]{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 10%;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}

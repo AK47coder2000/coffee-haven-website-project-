@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* Background Styles */
+.bg-menu{
+    background-image: url(rest-menu.jpg);
+     min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Menu Heading Styles */
+.menu{
+    font-family: champagne;
+    font-size: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Heading Styles */
+h1{
+    position: relative;
+    font-family: champagne;
+    font-size: 3em;
+    margin-left: 20px;
+}
+
+/* List Styles */ 
+ol{
+    position: relative;
+    font-family: champagne;
+    margin-left: 20px;
+    font-size: 2.5em;
+}
+
+/* Positioning Styles */
+.right{
+    float: right;
+    width: 400px;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.list{
+    margin-left: 500px;
+}
+
+.left{
+    float: left;
+    width: 400px;
+    margin-top: -700px;
+    padding-left: 40px;
+}

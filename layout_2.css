@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* Background Styles */
+#bg-review{
+    background-image: url(reviews.jpg);
+     min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Menu Heading Styles */
+#review{
+    font-family: champagne;
+    font-size: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style for class review with a rounded border */
+.review{
+    border: 3px solid white;
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 18px;
+    margin: 17px 0;
+}
+
+/* Clear floats after review */
+
+.review::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the review to the left with right margin */
+
+.review img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Increase the font-size */
+
+.review span{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Add media queries for responsiveness */
+
+@media (max-width: 500px){
+    .review{
+        text-align: center;
+    }
+    
+    .review{
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}

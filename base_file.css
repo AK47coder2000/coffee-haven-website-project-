@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/* Define font-face for custom font */
+@font-face{
+    font-family: champagne;
+    src: url(cac_champagne.woff) format('woff'),
+        url(cac_champagne.ttf) format('ttf');
+}
+
+@font-face{   
+    font-family: Rubik, Bellota;
+    src: url(Rubik-Regular.ttf) format('ttf'),
+        url(Bellota-Regular.otf) format('otf');
+}
+
+/* Apply styles to the entire document */
+html {
+    height: 100%;
+    background-color: wheat;
+}
+
+/*Styles for the header and body section */
+header {
+    margin-bottom: auto;
+    width: auto;
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+/* Styles for the logo */
+.logo{
+    font-size: 3.0em;
+    float: left;
+    text-decoration: none;
+    font-family: champagne;
+    color: white;
+    padding: 10px 10px;
+}
+
+/* Background image for the header */
+#bg-img{
+    background-image: url(cafe2.jpg);
+    min-height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Navigation styles */
+nav {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+nav a {
+    display: block;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the article section */
+article {
+    display: block;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styles for the coffee cup image */
+#cup{
+    float: left;
+    width: 400px;
+    position: relative;
+    margin: 30px 60px;
+    
+}
+
+/* Styles for the coffee list */
+ul, h3 {
+    position: relative;
+    font-size: 3em;
+    margin-left: 10px;
+    margin-top: 90px;
+    font-family: champagne;
+}
+
+/* Styles for the additional inforamation line */
+blockquote{
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    font-size: 3em;
+    font-family: Bellota;
+    margin-top: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(latte.jpg);
+    min-height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.star{
+    font-size: 0.7em;
+    font-family: champagne;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+/* Style for the form element */
+form{
+    border: 4px solid #f1f1f1;
+    font-size: 1.5em;
+    font-family: arial;
+}
+
+.container{
+    padding: 20px;
+}
+
+input[type=text], input[type=submit]{
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox]{
+    margin-top: 16px;
+}
+
+input[type=submit]{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+/* Styles for the Footer */
+footer{
+    background-color: darkgray;
+}
+
+footer > p{
+    padding-left: 10px;
+}
+
+address{
+    font-family:Rubik;
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+.copy-right{
+    text-align: center;
+}
